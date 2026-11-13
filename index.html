@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Сравнение автомобилей</title>
+
+    <style>
+        body {
+            background-color: #fff4ed;
+            color: #40352f;
+            font-family: Arial, sans-serif;
+            margin: 25px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #a65335;
+        }
+
+        h1 {
+            background-color: #f8d5c2;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: none;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f8d5c2;
+            color: #603b2b;
+        }
+
+        img {
+            width: 250px;
+            height: 160px;
+            object-fit: contain;
+        }
+
+        img[alt="Jaguar F-PACE P250 AWD"] {
+            width: 220px;
+        }
+
+        img[alt="Voyah Free REV AWD"] {
+            width: 270px;
+        }
+
+        details {
+            background-color: white;
+            border: 1px solid #e3b9a5;
+            padding: 15px;
+            margin: 12px auto;
+            width: 85%;
+            border-radius: 8px;
+        }
+
+        summary {
+            color: #a65335;
+            cursor: pointer;
+            font-weight: bold;
+        }
+details p {
+    text-align: left;
+}
+        mark {
+            background-color: #ffcf9f;
+            padding: 3px;
+        }
+
+        hr {
+            border: 1px solid #edc7b4;
+            margin: 25px 0;
+        }
+
+        tfoot th, tfoot td {
+            background-color: #fce6d9;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<main>
+
+    <h1>Сравнение автомобилей</h1>
+
+    <p>Lamborghini · Voyah · Jaguar</p>
+
+    <hr>
+
+    <h2>Наши автомобили</h2>
+
+    <table>
+        <tr>
+            <td>
+                <img src="lamborghini.jpg"
+                     alt="Lamborghini Huracán Tecnica">
+                <p>Lamborghini Huracán Tecnica</p>
+            </td>
+
+            <td>
+                <img src="voyah.jpg"
+                     alt="Voyah Free REV AWD">
+                <p>Voyah Free REV AWD</p>
+            </td>
+
+            <td>
+                <img src="jaguar.jpg"
+                     alt="Jaguar F-PACE P250 AWD">
+                <p>Jaguar F-PACE P250 AWD</p>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Характеристика</th>
+                <th>Lamborghini Huracán Tecnica</th>
+                <th>Voyah Free REV AWD</th>
+                <th>Jaguar F-PACE P250 AWD</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <th>Цена</th>
+                <td>Около $250 000</td>
+                <td>Около €65 000</td>
+                <td>От $57 000</td>
+            </tr>
+
+            <tr>
+                <th>Двигатель</th>
+                <td>Бензиновый V10</td>
+                <td>Гибридный, бензиновый двигатель 1,5 л</td>
+                <td>Бензиновый турбированный</td>
+            </tr>
+
+            <tr>
+                <th>Объём двигателя</th>
+                <td>5,2 л</td>
+                <td>1,5 л</td>
+                <td>2,0 л</td>
+            </tr>
+
+            <tr>
+                <th>Мощность</th>
+                <td>640 л. с.</td>
+                <td>Около 490 л. с.</td>
+                <td>250 л. с.</td>
+            </tr>
+
+            <tr>
+                <th>Расход топлива</th>
+                <td>Около 14,5 л/100 км</td>
+                <td>Зависит от режима движения</td>
+                <td>Около 9,7 л/100 км</td>
+            </tr>
+
+            <tr>
+                <th>Максимальная скорость</th>
+                <td><mark>325 км/ч</mark></td>
+                <td>Около 200 км/ч</td>
+                <td>Около 217 км/ч</td>
+            </tr>
+
+            <tr>
+                <th>Коробка передач</th>
+                <td>Роботизированная, 7 передач</td>
+                <td>Электрическая трансмиссия</td>
+                <td>Автоматическая, 8 передач</td>
+            </tr>
+
+            <tr>
+                <th>Экологичность</th>
+                <td>Есть выбросы CO₂</td>
+                <td>Может двигаться на электротяге</td>
+                <td>Есть выбросы CO₂</td>
+            </tr>
+
+            <tr>
+                <th>Экологический стандарт</th>
+                <td>Euro 6 (для европейских версий)</td>
+                <td>Зависит от рынка и версии</td>
+                <td>Euro 6 (для европейских версий)</td>
+            </tr>
+
+            <tr>
+                <th>Количество дверей</th>
+                <td>2</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Главное преимущество</th>
+                <td>Скорость и динамика</td>
+                <td>Гибридные технологии</td>
+                <td>Комфорт и практичность</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <hr>
+
+    <h2>Дополнительная информация</h2>
+
+    <details>
+        <summary>Lamborghini Huracán Tecnica</summary>
+        <p>
+            Спортивный автомобиль с атмосферным бензиновым
+            двигателем V10 объёмом 5,2 литра.
+            Отличается высокой скоростью и динамикой.
+        </p>
+    </details>
+
+    <details>
+        <summary>Voyah Free REV AWD</summary>
+        <p>
+            Гибридный кроссовер, в котором колёса приводятся
+            в движение электромоторами. Бензиновый двигатель
+            используется для выработки электроэнергии.
+        </p>
+    </details>
+
+    <details>
+        <summary>Jaguar F-PACE P250 AWD</summary>
+        <p>
+            Премиальный кроссовер с бензиновым турбированным
+            двигателем. Сочетает комфорт, практичность
+            и современный дизайн.
+        </p>
+    </details>
+
+    <hr>
+
+    <h2>Заключение</h2>
+
+    <p>
+        Lamborghini отличается высокой скоростью и мощностью.
+        Voyah использует гибридные технологии.
+        Jaguar сочетает комфорт и практичность.
+    </p>
+
+</main>
+
+</body>
+
+</html>
